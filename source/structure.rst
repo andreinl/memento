@@ -41,6 +41,7 @@ A module may contain any of the following elements:
             |- i18n/                       # Translation files
             |- report/                     # Report definitions
             |- security/                   # Declaration of groups and access rights
+                |- ir.model.access.csv         # Who can access table and what is permitted (read, write, create, delete)
             |- views/
                 |- idea_view.xml               # Views (forms,lists), menus and actions
             |- wizard/                     # Wizards definitions
